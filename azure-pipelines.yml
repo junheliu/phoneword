@@ -25,3 +25,4 @@ steps:
     projectFile: '**/*.csproj'
     outputDirectory: '$(outputDirectory)'
     configuration: '$(buildConfiguration)'
+    jdkArchitectureOption: 'x86' 
