@@ -26,5 +26,4 @@ steps:
     outputDirectory: '$(outputDirectory)'
     configuration: '$(buildConfiguration)'
     msbuildArchitectureOption: 'x86'
-    jdkArchitectureOption: 'x86' 
-    AndroidSdkBuildToolsApiLevel: 28
+    jdkArchitectureOption: 'x86'
