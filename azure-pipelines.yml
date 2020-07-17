@@ -33,5 +33,5 @@ steps:
   inputs:
     apkFiles: '$(Parameters.appFiles)'
     apksign: true
-	apksignerKeystoreFile: Certificates.p12
-	apksignerKeystorePassword: Sandeep123
+    apksignerKeystoreFile: Certificates.p12
+    apksignerKeystorePassword: Sandeep123
