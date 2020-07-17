@@ -27,4 +27,3 @@ steps:
     configuration: '$(buildConfiguration)'
     msbuildArchitectureOption: 'x86'
     jdkArchitectureOption: 'x86' 
-    AndroidSdkBuildToolsApiLevel: 28
