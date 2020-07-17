@@ -27,3 +27,11 @@ steps:
     configuration: '$(buildConfiguration)'
     msbuildArchitectureOption: 'x86'
     jdkArchitectureOption: 'x86' 
+    
+- task: AndroidSigning@3
+  displayName: 'Signing and aligning APK file(s) $(build.binariesdirectory)/$(BuildConfiguration)/*.apk'
+  inputs:
+    apkFiles: '$(Parameters.appFiles)'
+    apksign: true
+	apksignerKeystoreFile: Certificates.p12
+	apksignerKeystorePassword: Sandeep123
